@@ -498,8 +498,11 @@ img {
 .footer-cont {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.box-with-logofoot {
+  margin-right: 120px;
 }
 
 .p-soc-footer {
@@ -521,17 +524,29 @@ img {
   gap: 16px;
 }
 
-.soc-item-footer {
-  background-color: #4D5AE5;
-  padding: 8px;
-  border-radius: 50%;
+.soclist-foot-item {
   width: 40px;
   height: 40px;
+}
+
+.soclist-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition-property: background-color;
   transition-duration: 500ms;
 }
 
-.soc-item-footer:hover {
+.soclist-link:hover, .soclist-link:focus {
   background-color: #31D0AA;
 
+}
+
+.icon-footer {
+  fill: #f4f4fd;
+  
 }
