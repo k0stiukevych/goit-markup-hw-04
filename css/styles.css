@@ -123,6 +123,7 @@ img {
 
 .current {
   position: relative;
+  color: #404BBF;
 }
 
 .current::after {
